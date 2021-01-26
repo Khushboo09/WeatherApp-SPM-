@@ -28,9 +28,6 @@
 		46D5703F25BC1E5E000AF1C5 /* weather_location.json in Resources */ = {isa = PBXBuildFile; fileRef = 46D5703E25BC1E5E000AF1C5 /* weather_location.json */; };
 		46D570A125BC2208000AF1C5 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D570A025BC2207000AF1C5 /* NetworkAdapter.swift */; };
 		46D570B425BC5A3E000AF1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D570B325BC5A3E000AF1C5 /* Assets.xcassets */; };
-		46EEEC2125BFE92F00697D51 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 46EEEC2025BFE92F00697D51 /* Toast */; };
-		46EEEC2725BFEB0E00697D51 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 46EEEC2625BFEB0E00697D51 /* Alamofire */; };
-		46EEEC2D25BFECEA00697D51 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 46EEEC2C25BFECEA00697D51 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EEEC2D25BFECEA00697D51 /* SDWebImage in Frameworks */,
-				46EEEC2125BFE92F00697D51 /* Toast in Frameworks */,
-				46EEEC2725BFEB0E00697D51 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +240,6 @@
 			);
 			name = WeatherApp;
 			packageProductDependencies = (
-				46EEEC2025BFE92F00697D51 /* Toast */,
-				46EEEC2625BFEB0E00697D51 /* Alamofire */,
-				46EEEC2C25BFECEA00697D51 /* SDWebImage */,
 			);
 			productName = WeatherApp;
 			productReference = 46522DE725B7F16B00BBB38C /* WeatherApp.app */;
@@ -325,7 +316,6 @@
 				46EEEC1F25BFE92F00697D51 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 				46EEEC2525BFEB0E00697D51 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				46EEEC2B25BFECEA00697D51 /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				46EEEC3125BFF00E00697D51 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = 46522DE825B7F16B00BBB38C /* Products */;
 			projectDirPath = "";
@@ -732,33 +722,7 @@
 				minimumVersion = 5.10.3;
 			};
 		};
-		46EEEC3125BFF00E00697D51 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.42.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		46EEEC2025BFE92F00697D51 /* Toast */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 46EEEC1F25BFE92F00697D51 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
-			productName = Toast;
-		};
-		46EEEC2625BFEB0E00697D51 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 46EEEC2525BFEB0E00697D51 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		46EEEC2C25BFECEA00697D51 /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 46EEEC2B25BFECEA00697D51 /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46522DDF25B7F16B00BBB38C /* Project object */;
 }
