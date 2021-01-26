@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WeatherDetails: Decodable {
+struct WeatherDetails: Decodable,Hashable {
     let weatherCondition: String
     let weatherConditionAbbreviation: String
     let time: String?
