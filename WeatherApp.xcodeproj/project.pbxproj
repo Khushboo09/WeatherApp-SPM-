@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4645C75E25BFFE4D0031B200 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 4645C75D25BFFE4D0031B200 /* Toast */; };
+		4645C76325BFFE520031B200 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4645C76225BFFE520031B200 /* Alamofire */; };
+		4645C76825BFFE570031B200 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4645C76725BFFE570031B200 /* SDWebImage */; };
 		46522DEB25B7F16B00BBB38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46522DEA25B7F16B00BBB38C /* AppDelegate.swift */; };
 		46522DED25B7F16B00BBB38C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46522DEC25B7F16B00BBB38C /* SceneDelegate.swift */; };
 		46522DEF25B7F16B00BBB38C /* WeatherForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46522DEE25B7F16B00BBB38C /* WeatherForecastViewController.swift */; };
@@ -82,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4645C76825BFFE570031B200 /* SDWebImage in Frameworks */,
+				4645C75E25BFFE4D0031B200 /* Toast in Frameworks */,
+				4645C76325BFFE520031B200 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +246,9 @@
 			);
 			name = WeatherApp;
 			packageProductDependencies = (
+				4645C75D25BFFE4D0031B200 /* Toast */,
+				4645C76225BFFE520031B200 /* Alamofire */,
+				4645C76725BFFE570031B200 /* SDWebImage */,
 			);
 			productName = WeatherApp;
 			productReference = 46522DE725B7F16B00BBB38C /* WeatherApp.app */;
@@ -723,6 +732,24 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4645C75D25BFFE4D0031B200 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46EEEC1F25BFE92F00697D51 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		4645C76225BFFE520031B200 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46EEEC2525BFEB0E00697D51 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4645C76725BFFE570031B200 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46EEEC2B25BFECEA00697D51 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46522DDF25B7F16B00BBB38C /* Project object */;
 }
